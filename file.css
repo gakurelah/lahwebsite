@@ -1,0 +1,43 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+body
+{
+	background:  url(images/fun-facts-bg.jpg)   ;
+	background-size: cover;
+	height: calc(100vh - 80px);
+}
+.containers
+{
+	background: #ffcccc;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: 200px;
+	left: 40%;
+	text-align: center;
+}
+input[type=file],input[type=submit],
+{
+	width:30%;
+	border:2px solid #aaa;
+	border-radius:4px;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	transition: 3e;
+	position: relative;
+	top: 20px;
+	left: 0%;
+}
+input[type=file]:focus{
+	border-color:dodgerBlue;
+	box-shodow:0 0 8px 0 dodgerBlue;
+}
